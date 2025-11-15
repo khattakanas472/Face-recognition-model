@@ -1,27 +1,27 @@
-# Dual-Stream Face Recognition Research Framework
+ Dual-Stream Face Recognition Research Framework
 
 A high-performance machine learning library for face recognition that combines lightweight detection with high-precision verification through an adaptive buffering and temporal voting system.
 
-## Overview
+ Overview
 
 This framework implements a dual-stream architecture that optimizes both speed and accuracy:
 
-1. **Lightweight Detection Stream**: Uses YOLOv8-Nano for fast face detection
-2. **High-Precision Verification Stream**: Uses RetinaFace for accurate face verification
-3. **Adaptive Buffer**: Intelligent frame management for optimal performance
-4. **Temporal Voting**: Consensus mechanism for robust recognition
+1. Lightweight Detection Stream: Uses YOLOv8-Nano for fast face detection
+2. High-Precision Verification Stream: Uses RetinaFace for accurate face verification
+3. Adaptive Buffer: Intelligent frame management for optimal performance
+4. Temporal Voting: Consensus mechanism for robust recognition
 
-## Features
+  Features
 
-- 🚀 **Fast Detection**: YOLOv8-Nano for real-time face detection
-- 🎯 **High Accuracy**: RetinaFace for precise face verification
-- 📊 **Adaptive Buffering**: Smart frame management
-- 🗳️ **Temporal Voting**: Consensus-based recognition
-- 🔧 **Research-Friendly**: Modular design for experimentation
+-  Fast Detection: YOLOv8-Nano for real-time face detection
+-  High Accuracy: RetinaFace for precise face verification
+-  Adaptive Buffering: Smart frame management
+-  Temporal Voting: Consensus-based recognition
+-  Research-Friendly: Modular design for experimentation
 
-## Project Structure
+   Project Structure
 
-```
+
 dual_stream_face_recognition/
 ├── dual_stream_face_recognition/
 │   ├── __init__.py
@@ -46,88 +46,87 @@ dual_stream_face_recognition/
 ├── setup.py
 ├── requirements.txt
 └── README.md
-```
 
-## Installation
 
-### Prerequisites
+ Installation
+
+ Prerequisites
 
 - Python 3.8 or higher
 - CUDA-capable GPU (recommended for optimal performance)
 - pip or conda
 
-### Install from Source
+ Install from Source
 
 1. Clone the repository:
-```bash
+   bash
 git clone <repository-url>
 cd dual-stream-face-recognition
-```
+
 
 2. Install dependencies:
-```bash
+  bash
 pip install -r requirements.txt
-```
+
 
 3. Install the package:
-```bash
+  bash
 pip install -e .
-```
 
-## Usage
+ Usage
 
-*(Usage examples will be added once the models are implemented)*
+(Usage examples will be added once the models are implemented)
 
-## Development
+Development
 
-### Running Tests
+ Running Tests
 
-*(Test instructions will be added once tests are implemented)*
+(Test instructions will be added once tests are implemented)
 
-### Code Style
+ Code Style
 
 This project follows PEP 8 style guidelines. Format code using:
 
-```bash
+ bash
 black dual_stream_face_recognition/
-```
 
-## Dependencies
 
-### Core
-- **PyTorch** (>=2.0.0): Deep learning framework
-- **OpenCV** (>=4.8.0): Computer vision operations
-- **NumPy** (>=1.24.0): Numerical computations
+Dependencies
 
-### Models
-- **Ultralytics** (>=8.0.0): YOLOv8 implementation
-- **InsightFace** (>=0.7.3): RetinaFace implementation
+Core
+- PyTorch (>=2.0.0): Deep learning framework
+- OpenCV (>=4.8.0): Computer vision operations
+- NumPy (>=1.24.0): Numerical computations
 
-### Utilities
-- **SciPy**, **scikit-learn**: Scientific computing
-- **Matplotlib**: Visualization
-- **tqdm**: Progress bars
-- **PyYAML**: Configuration management
-- **Loguru**: Logging
+ Models
+- Ultralytics (>=8.0.0): YOLOv8 implementation
+- InsightFace (>=0.7.3): RetinaFace implementation
 
-## License
+ Utilities
+- SciPy, scikit-learn: Scientific computing
+- Matplotlib: Visualization
+- tqdm: Progress bars
+- PyYAML: Configuration management
+- Loguru: Logging
 
-*(License information to be added)*
+ License
 
-## Contributing
+(License information to be added)
 
-*(Contributing guidelines to be added)*
+ Contributing
 
-## Citation
+(Contributing guidelines to be added)
 
-*(Citation information to be added once research is published)*
+ Citation
 
-## Authors
+(Citation information to be added once research is published)
+ Authors
 
 Research Team
 
-## Acknowledgments
+ Acknowledgments
 
 - YOLOv8 by Ultralytics
 - RetinaFace by InsightFace
+
 
